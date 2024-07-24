@@ -1,5 +1,5 @@
 // Search something on google, if no arguments are provided => www.google.com
-g = google;
+s = google;
 function google(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
